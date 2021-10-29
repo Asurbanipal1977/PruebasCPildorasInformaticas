@@ -25,6 +25,8 @@ Son secuencias que funcionan como un patrón de búsqueda. Se pueden en: validac
   Métodos: Matches
   Propiedades: Groups
   
+  Ej: [ejemplo con estos casos](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/blob/main/ExpresionesRegulares/Program.cs)
+  
 ### 3. WPF (Windows Presentation Fundation)
   - Es el sucesor de Windows Forms.
   - Es un API del paquete de framewok .NET que permite crear interfaces de usuario bajo Windows
@@ -32,6 +34,10 @@ Son secuencias que funcionan como un patrón de búsqueda. Se pueden en: validac
   - Se puede crear de forma visual, generándose por debajo el código xaml.
   - Las interfaces gráficas son vectoriales.
   - Data binding. MVC
+  
+  Los cambios se pueden realziar arrastrando controles del "Cuadro de Herramientas" o desde el código xaml.
+  
+  Ej: [ejemplo con estos casos](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/blob/main/ExpresionesRegulares/Program.cs)
   
   
   
