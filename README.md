@@ -16,3 +16,5 @@ Síntaxis: Predicate<T> NombrePredicado = new Predicate<T>(FuncionDelegada);
 Se utilizan en delegados sencillos y expresiones LINQ.
 
 Síntaxis: parametros => bloque de sentencia
+  
+Ej: [ejemplo con estos casos](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/blob/main/PruebasCPildorasInformaticas/Program.cs)
