@@ -18,3 +18,24 @@ Se utilizan en delegados sencillos y expresiones LINQ.
 Síntaxis: parametros => bloque de sentencia
   
 Ej: [ejemplo con estos casos](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/blob/main/PruebasCPildorasInformaticas/Program.cs)
+
+### 2. EXPRESIONES REGULARES
+Son secuencias que funcionan como un patrón de búsqueda. Se pueden en: validación de formularios, búsqueda en base de datos, búsqueda en ficheros, ...
+  Clases útiles: Regex, Match, MatchCollection, MatchGroup
+  Métodos: Matches
+  Propiedades: Groups
+  
+### 3. WPF (Windows Presentation Fundation)
+  - Es el sucesor de Windows Forms.
+  - Es un API del paquete de framewok .NET que permite crear interfaces de usuario bajo Windows
+  - Puedes hacer estas interfaces gráficas utilizando un lenguaje llamado xaml similar a HTML
+  - Se puede crear de forma visual, generándose por debajo el código xaml.
+  - Las interfaces gráficas son vectoriales.
+  - Data binding. MVC
+  
+  
+  
+  
+  
+  
+  
