@@ -1,0 +1,15 @@
+D:\000_Cursos\PruebasCPildorasInformaticas\PrimeraInterfazWPF\bin\Debug\PrimeraInterfazWPF.exe.config
+D:\000_Cursos\PruebasCPildorasInformaticas\PrimeraInterfazWPF\bin\Debug\PrimeraInterfazWPF.exe
+D:\000_Cursos\PruebasCPildorasInformaticas\PrimeraInterfazWPF\bin\Debug\PrimeraInterfazWPF.pdb
+D:\000_Cursos\PruebasCPildorasInformaticas\PrimeraInterfazWPF\obj\Debug\PrimeraInterfazWPF.csprojAssemblyReference.cache
+D:\000_Cursos\PruebasCPildorasInformaticas\PrimeraInterfazWPF\obj\Debug\MainWindow.g.cs
+D:\000_Cursos\PruebasCPildorasInformaticas\PrimeraInterfazWPF\obj\Debug\App.g.cs
+D:\000_Cursos\PruebasCPildorasInformaticas\PrimeraInterfazWPF\obj\Debug\PrimeraInterfazWPF_MarkupCompile.cache
+D:\000_Cursos\PruebasCPildorasInformaticas\PrimeraInterfazWPF\obj\Debug\PrimeraInterfazWPF_MarkupCompile.lref
+D:\000_Cursos\PruebasCPildorasInformaticas\PrimeraInterfazWPF\obj\Debug\MainWindow.baml
+D:\000_Cursos\PruebasCPildorasInformaticas\PrimeraInterfazWPF\obj\Debug\PrimeraInterfazWPF.g.resources
+D:\000_Cursos\PruebasCPildorasInformaticas\PrimeraInterfazWPF\obj\Debug\PrimeraInterfazWPF.Properties.Resources.resources
+D:\000_Cursos\PruebasCPildorasInformaticas\PrimeraInterfazWPF\obj\Debug\PrimeraInterfazWPF.csproj.GenerateResource.cache
+D:\000_Cursos\PruebasCPildorasInformaticas\PrimeraInterfazWPF\obj\Debug\PrimeraInterfazWPF.csproj.CoreCompileInputs.cache
+D:\000_Cursos\PruebasCPildorasInformaticas\PrimeraInterfazWPF\obj\Debug\PrimeraInterfazWPF.exe
+D:\000_Cursos\PruebasCPildorasInformaticas\PrimeraInterfazWPF\obj\Debug\PrimeraInterfazWPF.pdb
