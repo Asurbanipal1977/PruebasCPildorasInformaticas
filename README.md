@@ -37,7 +37,7 @@ Son secuencias que funcionan como un patrón de búsqueda. Se pueden en: validac
   
   Los cambios se pueden realziar arrastrando controles del "Cuadro de Herramientas" o desde el código xaml.
   
-  Ej: [ejemplo con estos casos](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/blob/main/ExpresionesRegulares/Program.cs)
+  Ej: [ejemplo de WPF](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/PrimeraInterfazWPF)
   
   
   
