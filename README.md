@@ -42,8 +42,8 @@ Son secuencias que funcionan como un patrón de búsqueda. Se pueden en: validac
   
   1. CONCEPTOS BÁSICOS
   
-  - Puedes cambiar entre poner el xaml ariba o abajo con la fecla que aprece en la imagen
-  ![imagen](https://user-images.githubusercontent.com/37666654/139532388-9f08161a-fa81-41a6-b4cb-06b62dbb954a.png)
+  - Puedes cambiar entre poner el xaml ariba o abajo con la flecha que aparece en la imagen
+  ![imagen](https://user-images.githubusercontent.com/37666654/139532388-9f08161a-fa81-41a6-b4cb-06b62dbb954a.png  =200x20)
 
   
   
