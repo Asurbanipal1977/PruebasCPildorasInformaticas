@@ -35,18 +35,15 @@ Son secuencias que funcionan como un patrón de búsqueda. Se pueden en: validac
   - Las interfaces gráficas son vectoriales.
   - Data binding. MVC
   
-  Los cambios se pueden realziar arrastrando controles del "Cuadro de Herramientas" o desde el código xaml.
-  Con WPF se puede trabajar de tres formas: Vista de diseño, con el XAML y con code behind
-  
   Ej: [ejemplo de WPF](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/PrimeraInterfazWPF)
   
   1. CONCEPTOS BÁSICOS
   
   - Puedes cambiar entre poner el xaml ariba o abajo con la flecha que aparece en la imagen
-  ![imagen](https://user-images.githubusercontent.com/37666654/139532388-9f08161a-fa81-41a6-b4cb-06b62dbb954a.png  =200x20)
-
+  ![imagen](https://user-images.githubusercontent.com/37666654/139532388-9f08161a-fa81-41a6-b4cb-06b62dbb954a.png){width=50%}
   
+  - Los cambios se pueden realizar arrastrando controles del "Cuadro de Herramientas" o desde el código xaml.
+  Con WPF se puede trabajar de tres formas: Vista de diseño, con el XAML y con code behind
   
-  
-  
+  Sin duda es más fácil o con xaml o con vista diseño. Se ajunta ejemplo que incluye un ejemplo con code behind:
   
