@@ -6,7 +6,18 @@
         xmlns:local="clr-namespace:PrimeraInterfazWPF"
         mc:Ignorable="d"
         Title="Mi Primera Ventana" Height="450" Width="900">
-    <Grid >
-        <TextBlock HorizontalAlignment="Left" Margin="56,45,0,0" TextWrapping="Wrap" Text="Hola Mundo" VerticalAlignment="Top" Height="22" Width="147"/>
+    <Grid>
+        <Button>
+            <Button.Background>Yellow</Button.Background>
+            <Button.Width>200</Button.Width>
+            <Button.Height>100</Button.Height>
+            <Button.Content>
+                <WrapPanel>
+                    <TextBlock Foreground="Azure">Hola</TextBlock>
+                    <TextBlock Foreground="Aqua">Click</TextBlock>
+                    <TextBlock Foreground="red">Enviar</TextBlock>
+                </WrapPanel>
+            </Button.Content>
+        </Button>
     </Grid>
 </Window>

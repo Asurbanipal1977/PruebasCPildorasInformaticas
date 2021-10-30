@@ -23,6 +23,34 @@ namespace PrimeraInterfazWPF
 		public MainWindow()
 		{
 			InitializeComponent();
+
+			Grid grid = new Grid();
+
+			//Se asigna a la ventana el grid
+			this.Content = grid;
+
+			Button boton = new Button();
+			WrapPanel w = new WrapPanel();
+			TextBlock txt1 = new TextBlock();
+			TextBlock txt2 = new TextBlock();
+			TextBlock txt3 = new TextBlock();
+			txt1.Text = "Click";
+			txt1.Foreground = Brushes.Red;
+			txt2.Text = "Otra";
+			txt2.Foreground = Brushes.Green;
+			txt3.Text = "Vez";
+			txt3.Foreground = Brushes.Blue;
+			w.Children.Add(txt1);
+			w.Children.Add(txt2);
+			w.Children.Add(txt3);
+
+			boton.Content = w;
+			boton.Width = 120;
+			boton.Height = 40;
+
+			//Se añade el botón al grid
+			grid.Children.Add(boton);
+
 		}
 	}
 }
