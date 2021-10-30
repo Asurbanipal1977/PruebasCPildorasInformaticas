@@ -35,8 +35,6 @@ Son secuencias que funcionan como un patrón de búsqueda. Se pueden en: validac
   - Las interfaces gráficas son vectoriales.
   - Data binding. MVC
   
-  Ej: [ejemplo de WPF](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/PrimeraInterfazWPF)
-  
   1. CONCEPTOS BÁSICOS
   
   - Puedes cambiar entre poner el xaml ariba o abajo con la flecha que aparece en la imagen
@@ -46,4 +44,5 @@ Son secuencias que funcionan como un patrón de búsqueda. Se pueden en: validac
   Con WPF se puede trabajar de tres formas: Vista de diseño, con el XAML y con code behind
   
   Sin duda es más fácil o con xaml o con vista diseño. Se ajunta ejemplo que incluye un ejemplo con code behind:
+    Ej: [ejemplo de WPF](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/PrimeraInterfazWPF)
   
