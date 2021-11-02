@@ -59,8 +59,8 @@ Son secuencias que funcionan como un patrón de búsqueda. Se pueden en: validac
   - Divide el contenedor en columnas y filas.
   - Cada columna y fila pueden tomar diferentes valores:
     - Absoluto: Valores en píxeles.
-    - Automático: Necesita el valor del elemento interior.
-    - Proporcional: Valor disponible asignado de forma proporcional
+    - Automático: Necesita el valor del elemento interior. **Asigna el tamaño necesario para que quepa el componente**
+    - Proporcional: Valor disponible asignado de forma proporcional. **Con el asterisco se indica que se ocupe el resto de la anchura**. Si se pone un número delante es un multiplicador.
   - Las coordenadas están en (columna,fila)
   - Para definir las columnas se usa un código como este:
   ```
@@ -69,7 +69,11 @@ Son secuencias que funcionan como un patrón de búsqueda. Se pueden en: validac
       <ColumnDefinition Width="375"></ColumnDefinition>
     </Grid.ColumnDefinitions>
   ```
+Para las **filas es igual pero con RowDefinitions y height**.
+
   - Para indicar la columna dónde colocar el botón se utiliza la propiedad: Grid.Column="número de la columna empezando en cero"
+  - Para la fila se usa Grid.Row
+  - Para unir columnas Grid.ColumnSpan y para filas Grid.RowSpan
   
   
   
