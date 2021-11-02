@@ -80,13 +80,15 @@ Para las **filas es igual pero con RowDefinitions y height**.
   Son propiedades que dependen del sistema de propiedades de WPF para su completo funcionamiento. El sistema de propiedades de WPF son un conjunto de servicios que se pueden utilizar para ampliar la funcionalidad de una propiedad.
   Este sistema de dependencias se utiliza para poder establecer las propiedades de un control en función de otros parámetros que pueden cambiar (Just in time).
   ¿Qué parámetros pueden cambiar para establecer la propiedad de un control? 
-    - Propiedades del sistema (temas y preferencias de usuario).
-    - Data Binding
-    - Animaciones.
-    - Estilos.
+- Propiedades del sistema (temas y preferencias de usuario).
+- Data Binding
+- Animaciones.
+- Estilos.
   
-  EJ: Tenemos un ejemplo en:
-  Ej: [ejemplo de WPF](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/blob/main/PrimeraInterfazWPF/MainWindow.xaml). En este ejemplo se cambia el color y el tamaño de de letra de un botón en el momento en que te mueves con el ratón
+  Se puede crear nuestro propio Dependency property, cosa que también se ve en el ejemplo de debajo.
+  
+  Ej: Tenemos un ejemplo en: 
+  [ejemplo de WPF](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/blob/main/PrimeraInterfazWPF/MainWindow.xaml). En este ejemplo se cambia el color y el tamaño de de letra de un botón en el momento en que te mueves con el ratón
   
   
   
