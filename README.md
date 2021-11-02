@@ -74,6 +74,19 @@ Para las **filas es igual pero con RowDefinitions y height**.
   - Para indicar la columna dónde colocar el botón se utiliza la propiedad: Grid.Column="número de la columna empezando en cero"
   - Para la fila se usa Grid.Row
   - Para unir columnas Grid.ColumnSpan y para filas Grid.RowSpan
+      Ej: [ejemplo de WPF](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/PrimeraInterfazWPF)
+  
+  3. DEPENDENCY PROPERTIES
+  Son propiedades que dependen del sistema de propiedades de WPF para su completo funcionamiento. El sistema de propiedades de WPF son un conjunto de servicios que se pueden utilizar para ampliar la funcionalidad de una propiedad.
+  Este sistema de dependencias se utiliza para poder establecer las propiedades de un control en función de otros parámetros que pueden cambiar (Just in time).
+  ¿Qué parámetros pueden cambiar para establecer la propiedad de un control? 
+    - Propiedades del sistema (temas y preferencias de usuario).
+    - Data Binding
+    - Animaciones.
+    - Estilos.
+  
+  EJ: Tenemos un ejemplo en:
+  Ej: [ejemplo de WPF](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/PrimeraInterfazWPF). En este ejemplo se cambia el color y el tamaño de de letra de un botón en el momento en que te mueves con el ratón
   
   
   
