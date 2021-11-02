@@ -20,6 +20,15 @@ namespace PrimeraInterfazWPF
 	/// </summary>
 	public partial class MainWindow : Window
 	{
+		public int MyProperty
+		{
+			get { return (int) GetValue(miDepencyProperty); }
+			set { SetValue(miDepencyProperty, value); }
+		}
+
+		public static readonly DependencyProperty miDepencyProperty = 
+			DependencyProperty.Register("MyProperty",typeof(int),typeof(MainWindow),new PropertyMetadata(0));
+
 		public MainWindow()
 		{
 			InitializeComponent();
