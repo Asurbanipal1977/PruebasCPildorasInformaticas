@@ -61,6 +61,16 @@ Son secuencias que funcionan como un patrón de búsqueda. Se pueden en: validac
     - Absoluto: Valores en píxeles.
     - Automático: Necesita el valor del elemento interior.
     - Proporcional: Valor disponible asignado de forma proporcional
+  - Las coordenadas están en (columna,fila)
+  - Para definir las columnas se usa un código como este:
+  ```
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="175"></ColumnDefinition>
+      <ColumnDefinition Width="375"></ColumnDefinition>
+    </Grid.ColumnDefinitions>
+  ```
+  - Para indicar la columna dónde colocar el botón se utiliza la propiedad: Grid.Column="número de la columna empezando en cero"
+  
   
   
   
