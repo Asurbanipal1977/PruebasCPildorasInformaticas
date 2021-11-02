@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:PrimeraInterfazWPF"
         mc:Ignorable="d"
         Title="Mi Primera Ventana" Height="450" Width="900">
-    <Grid>
+    <!--<Grid>
         <Button>
             <Button.Background>Yellow</Button.Background>
             <Button.Width>200</Button.Width>
@@ -19,5 +19,50 @@
                 </WrapPanel>
             </Button.Content>
         </Button>
+    </Grid>-->
+
+    <!--<StackPanel Name="Panel" PreviewMouseLeftButtonDown="Panel_PreviewMouseLeftButtonDown">
+        <Button Content="Dale!!" Margin="10" Width="150" HorizontalAlignment="Left"></Button>
+        <Button Content="Dale 2!!"  Margin="10" Width="150" HorizontalAlignment="Center" Click="Button_Click"></Button>
+        <Button Content="Dale 3!!"  Margin="10" Width="150" HorizontalAlignment="Right"></Button>
+    </StackPanel>-->
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Button Grid.Column="0" Grid.Row="0" Content="Dale!!!" />
+        <Button Grid.Column="1" Grid.Row="0" Content="Dale 2!!!" />
+        <Button Grid.Column="2" Grid.Row="0" Content="Dale 3!!!" />
+        <Button Grid.Column="0" Grid.Row="1" Content="Dale 4!!!" />
+        <Button Grid.Column="1" Grid.Row="1" Content="Dale 5!!!" />
+        <Button Grid.Column="2" Grid.Row="1" Content="Dale 6!!!" />
+
+        <Grid Grid.Column="0" Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Button Grid.Column="0" Grid.Row="0" Content="SubDale!!!" />
+            <Button Grid.Column="1" Grid.Row="0" Content="SubDale 2!!!" />
+            <Button Grid.Column="0" Grid.Row="1" Content="SubDale!!!" />
+            <Button Grid.Column="1" Grid.Row="1" Content="SubDale 2!!!" />
+        </Grid>
+
+        <TextBlock Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="3" FontSize="25" 
+                   VerticalAlignment="Center" HorizontalAlignment="Center">Titulo</TextBlock>
+
     </Grid>
 </Window>

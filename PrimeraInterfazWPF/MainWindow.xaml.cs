@@ -24,33 +24,49 @@ namespace PrimeraInterfazWPF
 		{
 			InitializeComponent();
 
-			Grid grid = new Grid();
+			//Grid grid = new Grid();
 
-			//Se asigna a la ventana el grid
-			this.Content = grid;
+			////Se asigna a la ventana el grid
+			//this.Content = grid;
 
-			Button boton = new Button();
-			WrapPanel w = new WrapPanel();
-			TextBlock txt1 = new TextBlock();
-			TextBlock txt2 = new TextBlock();
-			TextBlock txt3 = new TextBlock();
-			txt1.Text = "Click";
-			txt1.Foreground = Brushes.Red;
-			txt2.Text = "Otra";
-			txt2.Foreground = Brushes.Green;
-			txt3.Text = "Vez";
-			txt3.Foreground = Brushes.Blue;
-			w.Children.Add(txt1);
-			w.Children.Add(txt2);
-			w.Children.Add(txt3);
+			//Button boton = new Button();
+			//WrapPanel w = new WrapPanel();
+			//TextBlock txt1 = new TextBlock();
+			//TextBlock txt2 = new TextBlock();
+			//TextBlock txt3 = new TextBlock();
+			//txt1.Text = "Click";
+			//txt1.Foreground = Brushes.Red;
+			//txt2.Text = "Otra";
+			//txt2.Foreground = Brushes.Green;
+			//txt3.Text = "Vez";
+			//txt3.Foreground = Brushes.Blue;
+			//w.Children.Add(txt1);
+			//w.Children.Add(txt2);
+			//w.Children.Add(txt3);
 
-			boton.Content = w;
-			boton.Width = 120;
-			boton.Height = 40;
+			//boton.Content = w;
+			//boton.Width = 120;
+			//boton.Height = 40;
+			//boton.Background = Brushes.AliceBlue;
 
-			//Se añade el botón al grid
-			grid.Children.Add(boton);
+			////Se añade el botón al grid
+			//grid.Children.Add(boton);
 
+		}
+
+		private void Button_Click(object sender, RoutedEventArgs e)
+		{
+			Console.WriteLine("Se ha pulsado el botón 2");
+		}
+
+		//private void Panel_Click(object sender, RoutedEventArgs e)
+		//{
+		//	Console.WriteLine("Se ha pulsado en el panel");
+		//}
+
+		private void Panel_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+		{
+			Console.WriteLine("Se ha pulsado en el panel");
 		}
 	}
 }
