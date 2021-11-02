@@ -1,3 +1,5 @@
+### [API DE .NET](https://docs.microsoft.com/es-es/dotnet/api/)
+
 ### 1. DELEGADOS PREDICADOS Y LAMBDA
 **1. DELEGADOS:** Funciones que delegan las tareas a otras. Un delegado es una referencia a un método y se usan para llamar a eventos.
 
@@ -36,13 +38,29 @@ Son secuencias que funcionan como un patrón de búsqueda. Se pueden en: validac
   - Data binding. MVC
   
   1. CONCEPTOS BÁSICOS
-  
   - Puedes cambiar entre poner el xaml ariba o abajo con la flecha que aparece en la imagen
-  ![imagen](https://user-images.githubusercontent.com/37666654/139532388-9f08161a-fa81-41a6-b4cb-06b62dbb954a.png){width=50%}
+  ![imagen](https://user-images.githubusercontent.com/37666654/139532388-9f08161a-fa81-41a6-b4cb-06b62dbb954a.png)
   
   - Los cambios se pueden realizar arrastrando controles del "Cuadro de Herramientas" o desde el código xaml.
   Con WPF se puede trabajar de tres formas: Vista de diseño, con el XAML y con code behind
   
   Sin duda es más fácil o con xaml o con vista diseño. Se ajunta ejemplo que incluye un ejemplo con code behind:
     Ej: [ejemplo de WPF](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/PrimeraInterfazWPF)
+  
+  - Se puede usar un StackPanel para que apile. Para separar elementos se puede usar Margin (se pone el margin arriba, abajo, izquierda y derecha)
+  - Para sacar un alert se usa Messabox.Show(texto).
+  - En WPF tenemos los eventos enrutados. Dependiendo de la ruta que siga tenemos: 
+    - eventos directos. Sin propagación.
+    - eventos burbuja. Propagación hacia arriba.
+    - eventos tunelados. Propagación hacia abajo. Hay que poner la palabra preview antes del nombre del evento.
+  - El evento click para el Stack es: ButtonBase.Click
+  
+  2. USO DE GRID
+  - Divide el contenedor en columnas y filas.
+  - Cada columna y fila pueden tomar diferentes valores:
+    - Absoluto: Valores en píxeles.
+    - Automático: Necesita el valor del elemento interior.
+    - Proporcional: Valor disponible asignado de forma proporcional
+  
+  
   
