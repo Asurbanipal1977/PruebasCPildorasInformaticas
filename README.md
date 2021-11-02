@@ -86,7 +86,7 @@ Para las **filas es igual pero con RowDefinitions y height**.
     - Estilos.
   
   EJ: Tenemos un ejemplo en:
-  Ej: [ejemplo de WPF](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/PrimeraInterfazWPF). En este ejemplo se cambia el color y el tamaño de de letra de un botón en el momento en que te mueves con el ratón
+  Ej: [ejemplo de WPF](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/blob/main/PrimeraInterfazWPF/MainWindow.xaml). En este ejemplo se cambia el color y el tamaño de de letra de un botón en el momento en que te mueves con el ratón
   
   
   
