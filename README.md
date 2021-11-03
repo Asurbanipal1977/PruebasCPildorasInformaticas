@@ -102,7 +102,8 @@ Para las **filas es igual pero con RowDefinitions y height**.
             <Slider Name="MiSlider" Width="350" Minimum="0" Maximum="100"></Slider>
         </StackPanel>
   ```
-  
+5. Interfaz INotifyPropertyChanged
+Permite notificar cambios en cualquiera de las propiedades de un objeto.
   
   
   
