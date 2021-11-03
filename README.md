@@ -81,14 +81,27 @@ Para las **filas es igual pero con RowDefinitions y height**.
   Este sistema de dependencias se utiliza para poder establecer las propiedades de un control en función de otros parámetros que pueden cambiar (Just in time).
   ¿Qué parámetros pueden cambiar para establecer la propiedad de un control? 
 - Propiedades del sistema (temas y preferencias de usuario).
-- Data Binding
+- Data Binding.
 - Animaciones.
 - Estilos.
   
   Se puede crear nuestro propio Dependency property, cosa que también se ve en el ejemplo de debajo.
   
   Ej: Tenemos un ejemplo en: 
-  [ejemplo de WPF](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/blob/main/PrimeraInterfazWPF/MainWindow.xaml). En este ejemplo se cambia el color y el tamaño de de letra de un botón en el momento en que te mueves con el ratón
+  [ejemplo de WPF](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/blob/main/PrimeraInterfazWPF/MainWindow.xaml). En este ejemplo se cambia el color y el tamaño de de letra de un botón en el momento en que te mueves con el ratón.
+  
+4. DATA BINDING
+  - Es un puente o enlace a través del cúal el control es capaz de enviar y recibir información pudiendo obtener información de: BBDD, Objetos u otros controles.
+  - Tipos: oneway, onewayToSource, twoWays, oneTime.
+  
+  Ej: Como se puede observar, en el campo Text se define engtre llaves el Binding, indicando el nombre del elemento de fuente de datos, la propiedad que se quiere obtener (en este caso el valor) y el modo (oneWay, onewayToSource, twoWays, oneTime)
+  ```
+        <StackPanel Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="3">
+            <TextBox Name="MiCuadroTexto" FontSize="20" Width="200"
+                   VerticalAlignment="Center" HorizontalAlignment="Center" Text="{Binding ElementName=MiSlider, Path=Value, Mode=TwoWay}" TextAlignment="Right"></TextBox>
+            <Slider Name="MiSlider" Width="350" Minimum="0" Maximum="100"></Slider>
+        </StackPanel>
+  ```
   
   
   
