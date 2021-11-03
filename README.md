@@ -113,14 +113,14 @@ Permite notificar cambios en cualquiera de las propiedades de un objeto. Para co
 - Ejecutar el evento de cambio mediante una funciñón como esta:
   ```C#
   private void NotifyPropertyChanged(string propertyName = "")
-		{
-			PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-		}
+{
+  PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+}
   ````
   - Instancias la clase y indicar el origen de dato de los binding.
   ```
-      UnirNombre unirNombre = new UnirNombre { Nombre="Juan", Apellido="Rodríguez"};
-			this.DataContext = unirNombre;
+UnirNombre unirNombre = new UnirNombre { Nombre="Juan", Apellido="Rodríguez"};
+this.DataContext = unirNombre;
   ```
   
   
