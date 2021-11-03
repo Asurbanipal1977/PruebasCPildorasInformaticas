@@ -33,6 +33,10 @@ namespace PrimeraInterfazWPF
 		{
 			InitializeComponent();
 
+			UnirNombre unirNombre = new UnirNombre { Nombre="Juan", Apellido="Rodríguez"};
+			//Hay que indicar el origen de los binding
+			this.DataContext = unirNombre;
+
 			//Grid grid = new Grid();
 
 			////Se asigna a la ventana el grid
@@ -65,7 +69,10 @@ namespace PrimeraInterfazWPF
 
 		private void Button_Click(object sender, RoutedEventArgs e)
 		{
-			Console.WriteLine("Se ha pulsado el botón 2");
+			Button botonActual = (Button)sender;
+			string valor = botonActual.Content.ToString();
+
+			Console.WriteLine($"Se ha pulsado el botón {valor}");
 		}
 
 		//private void Panel_Click(object sender, RoutedEventArgs e)
@@ -76,6 +83,11 @@ namespace PrimeraInterfazWPF
 		private void Panel_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
 		{
 			Console.WriteLine("Se ha pulsado en el panel");
+		}
+
+		private void MiSlider_MouseMove(object sender, MouseEventArgs e)
+		{
+
 		}
 	}
 }
