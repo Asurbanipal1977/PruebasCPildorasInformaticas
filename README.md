@@ -103,7 +103,24 @@ Para las **filas es igual pero con RowDefinitions y height**.
         </StackPanel>
   ```
 5. Interfaz INotifyPropertyChanged
-Permite notificar cambios en cualquiera de las propiedades de un objeto.
+Permite notificar cambios en cualquiera de las propiedades de un objeto. Para controlar estos cambios se deben seguir varios pasos:
+- Indicar el Binding con la propiedad en el xaml.
+  ```
+   Text="{Binding Path=Nombre, Mode=TwoWay}"
+  ```
   
+- Declarar una clase que herede de INotifyPropertyChanged.
+- Ejecutar el evento de cambio mediante una funciñón como esta:
+  ```C#
+  private void NotifyPropertyChanged(string propertyName = "")
+		{
+			PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+		}
+  ````
+  - Instancias la clase y indicar el origen de dato de los binding.
+  ```
+      UnirNombre unirNombre = new UnirNombre { Nombre="Juan", Apellido="Rodríguez"};
+			this.DataContext = unirNombre;
+  ```
   
   
