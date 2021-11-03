@@ -123,4 +123,7 @@ Permite notificar cambios en cualquiera de las propiedades de un objeto. Para co
   this.DataContext = unirNombre;
   ```
   
+  Ej: [ejemplo de INotifyPropertyChanged](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/blob/main/PruebasCPildorasInformaticas/PrimeraInterfazWPF/UnirNombre.cs)
+  
+  
   
