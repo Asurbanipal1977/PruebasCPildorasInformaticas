@@ -19,16 +19,24 @@
             </Grid.ColumnDefinitions>
 
             <StackPanel Grid.Column="0" Margin="50,10,50,10">
-                <RadioButton Name="Color">
+                <RadioButton Name="Color" Click="Color_Click">
                     <TextBlock>Rojo</TextBlock>
                 </RadioButton>
-                <RadioButton Name="Color1">
+                <RadioButton Name="Color1" Click="Color_Click">
                     <TextBlock>Amarillo</TextBlock>
                 </RadioButton>
-                <RadioButton Name="Color2">
+                <RadioButton Name="Color2" Click="Color_Click">
                     <TextBlock>Verde</TextBlock>
                 </RadioButton>
             </StackPanel>
+            <Border BorderBrush="Black" BorderThickness="2" Grid.Column="1">
+                <Grid>
+                    <Image Source=".\static\img\semaforo.bmp"></Image>
+                    <Ellipse Name="eRojo" Margin="171,52,159.6,229.6" Fill="Red" Visibility="Hidden"/>
+                    <Ellipse Name="eAmarillo" Margin="171,143,159.6,138.6" Fill="Yellow" Visibility="Hidden"/>
+                    <Ellipse Name="eVerde" Margin="171,239,159.6,42.6" Fill="Green" RenderTransformOrigin="0.502,-0.32" Visibility="Hidden"/>
+                </Grid>
+            </Border>
         </Grid>
     </Grid>
 </Window>

@@ -24,5 +24,29 @@ namespace RadioButtonPractica
 		{
 			InitializeComponent();
 		}
+
+		private void Color_Click(object sender, RoutedEventArgs e)
+		{
+			RadioButton r = (RadioButton)sender;
+			string color = ((TextBlock)r.Content).Text;
+
+			eRojo.Visibility = Visibility.Hidden;
+			eAmarillo.Visibility = Visibility.Hidden;
+			eVerde.Visibility = Visibility.Hidden;
+
+			if (color.Contains("Rojo"))
+			{
+				eRojo.Visibility = Visibility.Visible;
+			}
+			else if(color.Contains("Amarillo"))
+			{
+				eAmarillo.Visibility = Visibility.Visible;
+			}
+			else if (color.Contains("Verde"))
+			{
+				eVerde.Visibility = Visibility.Visible;
+			}
+
+		}
 	}
 }

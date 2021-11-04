@@ -12,3 +12,4 @@ D:\000_Cursos\PruebasCPildorasInformaticas\RadioButtonPractica\obj\Debug\RadioBu
 D:\000_Cursos\PruebasCPildorasInformaticas\RadioButtonPractica\obj\Debug\RadioButtonPractica.csproj.CoreCompileInputs.cache
 D:\000_Cursos\PruebasCPildorasInformaticas\RadioButtonPractica\obj\Debug\RadioButtonPractica.exe
 D:\000_Cursos\PruebasCPildorasInformaticas\RadioButtonPractica\obj\Debug\RadioButtonPractica.pdb
+D:\000_Cursos\PruebasCPildorasInformaticas\RadioButtonPractica\obj\Debug\RadioButtonPractica.csprojAssemblyReference.cache
