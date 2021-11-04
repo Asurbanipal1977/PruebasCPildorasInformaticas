@@ -125,7 +125,7 @@ Permite notificar cambios en cualquiera de las propiedades de un objeto. Para co
   
   Ej: [ejemplo de INotifyPropertyChanged](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/blob/main/PruebasCPildorasInformaticas/PrimeraInterfazWPF/UnirNombre.cs)
   
-  6. ListBox
+6. ListBox
   En los ListBox se tiene que establecer el ItemTemplate. Un ejemplo es el siguiente:
   ```
   <ListBox Name="lstPoblacionesXAML" Grid.Row="0" HorizontalContentAlignment="Stretch" SelectionChanged="lstPoblacionesXAML_SelectionChanged">
@@ -151,6 +151,6 @@ Permite notificar cambios en cualquiera de las propiedades de un objeto. Para co
   ```
   Ej: [ejemplo de ListBox](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/blob/main/PruebasCPildorasInformaticas/ListBoxPractica/MainWindow.xaml.cs)
   
-  7. ComboBox y CheckBox. El ComboBox es muy poarecido al anterior y, el checkbox, tiene la opción de permitir tres estados, para checkbox que permiten seleccionar todos los checkbox hijos. Ej: [ejemplo de ComboBox y CheckBox](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/blob/main/PruebasCPildorasInformaticas/ListBoxPractica/MainWindow.xaml.cs)
+7. ComboBox y CheckBox. El ComboBox es muy poarecido al anterior y, el checkbox, tiene la opción de permitir tres estados, para checkbox que permiten seleccionar todos los checkbox hijos. Ej: [ejemplo de ComboBox y CheckBox](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/blob/main/PruebasCPildorasInformaticas/ListBoxPractica/MainWindow.xaml.cs)
   
   
