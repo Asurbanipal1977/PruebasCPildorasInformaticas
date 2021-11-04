@@ -110,7 +110,7 @@ Permite notificar cambios en cualquiera de las propiedades de un objeto. Para co
   ```
   
 - Declarar una clase que herede de INotifyPropertyChanged.
-- Ejecutar el evento de cambio mediante una funciñón como esta:
+- Ejecutar el evento de cambio mediante una función como esta:
   ```C#
   private void NotifyPropertyChanged(string propertyName = "")
   {
@@ -125,5 +125,32 @@ Permite notificar cambios en cualquiera de las propiedades de un objeto. Para co
   
   Ej: [ejemplo de INotifyPropertyChanged](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/blob/main/PruebasCPildorasInformaticas/PrimeraInterfazWPF/UnirNombre.cs)
   
+  6. ListBox
+  En los ListBox se tiene que establecer el ItemTemplate. Un ejemplo es el siguiente:
+  ```
+  <ListBox Name="lstPoblacionesXAML" Grid.Row="0" HorizontalContentAlignment="Stretch" SelectionChanged="lstPoblacionesXAML_SelectionChanged">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Grid.Row="0" Text="{Binding Path=Poblacion1}"></TextBlock>
+                        <TextBlock Grid.Column="1" Grid.Row="0" Text="{Binding Path=Temperatura1}"></TextBlock>
+                        <TextBlock Grid.Column="2" Grid.Row="0" Text="{Binding Path=Poblacion2}"></TextBlock>
+                        <TextBlock Grid.Column="3" Grid.Row="0" Text="{Binding Path=Temperatura2}"></TextBlock>
+                        <ProgressBar Grid.Column="4" Grid.Row="0" Maximum="100" Value="{Binding Path=DiferenciaTemperatura}" />
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+  ```
+  Ej: [ejemplo de ListBox](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/blob/main/PruebasCPildorasInformaticas/ListBoxPractica/MainWindow.xaml.cs)
+  
+  7. ComboBox y CheckBox. El ComboBox es muy poarecido al anterior y, el checkbox, tiene la opción de permitir tres estados, para checkbox que permiten seleccionar todos los checkbox hijos. Ej: [ejemplo de ComboBox y CheckBox](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/blob/main/PruebasCPildorasInformaticas/ListBoxPractica/MainWindow.xaml.cs)
   
   
