@@ -155,6 +155,11 @@ Permite notificar cambios en cualquiera de las propiedades de un objeto. Para co
 8. Checkbox. Se realiza una práctica que consiste en un checkbox con un semáforo que enciende luz según el check. Hay que usar un Grid y el objeto Ellipse
 
 ###4. ACCESO A BBDD SQLSERVER
-Creamos una base de datos con un tabla artículo.
+Creamos una base de datos con un tabla clientes, productos y pedidos.
+En el explorador de servidores tenemos las bases de datos que se van a poder gestionar desde el proyecto. Para enlazar un la base de datos podemos;
+- Usar el Origenes de datos y usar el asistente
+- Usar el app.Config, definir la cadena de conexión con appSettings y add key
+
+Al usar el editor de base de datos que viene con visual studio es necesario acordarse de pulsar el actualizar
 
    
