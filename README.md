@@ -152,5 +152,9 @@ Permite notificar cambios en cualquiera de las propiedades de un objeto. Para co
   Ej: [ejemplo de ListBox](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/blob/main/PruebasCPildorasInformaticas/ListBoxPractica/MainWindow.xaml.cs)
   
 7. ComboBox y CheckBox. El ComboBox es muy poarecido al anterior y, el checkbox, tiene la opción de permitir tres estados, para checkbox que permiten seleccionar todos los checkbox hijos. Ej: [ejemplo de ComboBox y CheckBox](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/blob/main/PruebasCPildorasInformaticas/ListBoxPractica/MainWindow.xaml.cs)
-  
-  
+8. Checkbox. Se realiza una práctica que consiste en un checkbox con un semáforo que enciende luz según el check. Hay que usar un Grid y el objeto Ellipse
+
+###4. ACCESO A BBDD SQLSERVER
+Creamos una base de datos con un tabla artículo.
+
+   
