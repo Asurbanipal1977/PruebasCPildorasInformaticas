@@ -154,7 +154,7 @@ Permite notificar cambios en cualquiera de las propiedades de un objeto. Para co
 7. ComboBox y CheckBox. El ComboBox es muy poarecido al anterior y, el checkbox, tiene la opción de permitir tres estados, para checkbox que permiten seleccionar todos los checkbox hijos. Ej: [ejemplo de ComboBox y CheckBox](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/blob/main/PruebasCPildorasInformaticas/ListBoxPractica/MainWindow.xaml.cs)
 8. Checkbox. Se realiza una práctica que consiste en un checkbox con un semáforo que enciende luz según el check. Hay que usar un Grid y el objeto Ellipse
 
-###4. ACCESO A BBDD SQLSERVER
+### 4. ACCESO A BBDD SQLSERVER
 Creamos una base de datos con un tabla clientes, productos y pedidos.
 En el explorador de servidores tenemos las bases de datos que se van a poder gestionar desde el proyecto. Para enlazar un la base de datos podemos;
 - Usar el Origenes de datos y usar el asistente.
