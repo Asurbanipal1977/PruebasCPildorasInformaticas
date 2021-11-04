@@ -172,6 +172,6 @@ Para recuperar los datos de la base de datos y  cargarlos en un ListBox se neces
     - La clave: ListaClientes.SelectedValuePath = "Id";
     - El origen de datos: ListaClientes.ItemsSource = clientes.DefaultView;
   
-  Ej: [GestionPedidos](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/blob/main/PruebasCPildorasInformaticas/GestionPedidosWPF)
+  Ej: [GestionPedidos](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/GestionPedidosWPF)
 
    
