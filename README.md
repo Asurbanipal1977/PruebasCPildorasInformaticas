@@ -157,9 +157,21 @@ Permite notificar cambios en cualquiera de las propiedades de un objeto. Para co
 ###4. ACCESO A BBDD SQLSERVER
 Creamos una base de datos con un tabla clientes, productos y pedidos.
 En el explorador de servidores tenemos las bases de datos que se van a poder gestionar desde el proyecto. Para enlazar un la base de datos podemos;
-- Usar el Origenes de datos y usar el asistente
-- Usar el app.Config, definir la cadena de conexión con appSettings y add key
+- Usar el Origenes de datos y usar el asistente.
+- Usar el app.Config, definir la cadena de conexión con appSettings y add key.
 
-Al usar el editor de base de datos que viene con visual studio es necesario acordarse de pulsar el actualizar
+Al usar el editor de base de datos que viene con visual studio es necesario acordarse de pulsar el botón actualizar.
+  
+Para recuperar los datos de la base de datos y  cargarlos en un ListBox se necesita:
+  - Crear la cadena de conexión.
+  - Usar la clase SqlConnection.
+  - Usar sqlDataAdapter o sqlCommand (necesita el open de la conexión).
+  - Cargar el DataTable.
+  - Indicar en el ListBox
+    - El elemento a mostrar en la lista: ListaClientes.DisplayMemberPath = "nombre"; 
+    - La clave: ListaClientes.SelectedValuePath = "Id";
+    - El origen de datos: ListaClientes.ItemsSource = clientes.DefaultView;
+  
+  Ej: [GestionPedidos](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/blob/main/PruebasCPildorasInformaticas/GestionPedidosWPF)
 
    
