@@ -1,0 +1,15 @@
+D:\000_Cursos\PruebasCPildorasInformaticas\ListBoxPractica\bin\Debug\ListBoxPractica.exe.config
+D:\000_Cursos\PruebasCPildorasInformaticas\ListBoxPractica\bin\Debug\ListBoxPractica.exe
+D:\000_Cursos\PruebasCPildorasInformaticas\ListBoxPractica\bin\Debug\ListBoxPractica.pdb
+D:\000_Cursos\PruebasCPildorasInformaticas\ListBoxPractica\obj\Debug\ListBoxPractica.csprojAssemblyReference.cache
+D:\000_Cursos\PruebasCPildorasInformaticas\ListBoxPractica\obj\Debug\MainWindow.g.cs
+D:\000_Cursos\PruebasCPildorasInformaticas\ListBoxPractica\obj\Debug\App.g.cs
+D:\000_Cursos\PruebasCPildorasInformaticas\ListBoxPractica\obj\Debug\ListBoxPractica_MarkupCompile.cache
+D:\000_Cursos\PruebasCPildorasInformaticas\ListBoxPractica\obj\Debug\ListBoxPractica_MarkupCompile.lref
+D:\000_Cursos\PruebasCPildorasInformaticas\ListBoxPractica\obj\Debug\MainWindow.baml
+D:\000_Cursos\PruebasCPildorasInformaticas\ListBoxPractica\obj\Debug\ListBoxPractica.g.resources
+D:\000_Cursos\PruebasCPildorasInformaticas\ListBoxPractica\obj\Debug\ListBoxPractica.Properties.Resources.resources
+D:\000_Cursos\PruebasCPildorasInformaticas\ListBoxPractica\obj\Debug\ListBoxPractica.csproj.GenerateResource.cache
+D:\000_Cursos\PruebasCPildorasInformaticas\ListBoxPractica\obj\Debug\ListBoxPractica.csproj.CoreCompileInputs.cache
+D:\000_Cursos\PruebasCPildorasInformaticas\ListBoxPractica\obj\Debug\ListBoxPractica.exe
+D:\000_Cursos\PruebasCPildorasInformaticas\ListBoxPractica\obj\Debug\ListBoxPractica.pdb

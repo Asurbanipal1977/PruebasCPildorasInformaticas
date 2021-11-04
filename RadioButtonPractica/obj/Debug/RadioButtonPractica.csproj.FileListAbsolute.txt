@@ -1,0 +1,14 @@
+D:\000_Cursos\PruebasCPildorasInformaticas\RadioButtonPractica\bin\Debug\RadioButtonPractica.exe.config
+D:\000_Cursos\PruebasCPildorasInformaticas\RadioButtonPractica\bin\Debug\RadioButtonPractica.exe
+D:\000_Cursos\PruebasCPildorasInformaticas\RadioButtonPractica\bin\Debug\RadioButtonPractica.pdb
+D:\000_Cursos\PruebasCPildorasInformaticas\RadioButtonPractica\obj\Debug\MainWindow.g.cs
+D:\000_Cursos\PruebasCPildorasInformaticas\RadioButtonPractica\obj\Debug\App.g.cs
+D:\000_Cursos\PruebasCPildorasInformaticas\RadioButtonPractica\obj\Debug\RadioButtonPractica_MarkupCompile.cache
+D:\000_Cursos\PruebasCPildorasInformaticas\RadioButtonPractica\obj\Debug\RadioButtonPractica_MarkupCompile.lref
+D:\000_Cursos\PruebasCPildorasInformaticas\RadioButtonPractica\obj\Debug\MainWindow.baml
+D:\000_Cursos\PruebasCPildorasInformaticas\RadioButtonPractica\obj\Debug\RadioButtonPractica.g.resources
+D:\000_Cursos\PruebasCPildorasInformaticas\RadioButtonPractica\obj\Debug\RadioButtonPractica.Properties.Resources.resources
+D:\000_Cursos\PruebasCPildorasInformaticas\RadioButtonPractica\obj\Debug\RadioButtonPractica.csproj.GenerateResource.cache
+D:\000_Cursos\PruebasCPildorasInformaticas\RadioButtonPractica\obj\Debug\RadioButtonPractica.csproj.CoreCompileInputs.cache
+D:\000_Cursos\PruebasCPildorasInformaticas\RadioButtonPractica\obj\Debug\RadioButtonPractica.exe
+D:\000_Cursos\PruebasCPildorasInformaticas\RadioButtonPractica\obj\Debug\RadioButtonPractica.pdb

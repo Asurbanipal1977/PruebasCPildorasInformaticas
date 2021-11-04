@@ -1,0 +1,60 @@
+﻿<Window x:Class="ListBoxPractica.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ListBoxPractica"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="26"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <ListBox Name="lstPoblacionesXAML" Grid.Row="0" HorizontalContentAlignment="Stretch" SelectionChanged="Button_Click">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Grid.Row="0" Text="{Binding Path=Poblacion1}"></TextBlock>
+                        <TextBlock Grid.Column="1" Grid.Row="0" Text="{Binding Path=Temperatura1}"></TextBlock>
+                        <TextBlock Grid.Column="2" Grid.Row="0" Text="{Binding Path=Poblacion2}"></TextBlock>
+                        <TextBlock Grid.Column="3" Grid.Row="0" Text="{Binding Path=Temperatura2}"></TextBlock>
+                        <ProgressBar Grid.Column="4" Grid.Row="0" Maximum="20" Value="{Binding Path=DiferenciaTemperatura}" />
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <ComboBox Name="cmbCapitales" Grid.Row="1" Height="40">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding NombrePoblacion}" FontSize="16"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <StackPanel Grid.Row="2">
+            <Label FontSize="16" FontWeight="ExtraBlack">Paises:</Label>
+            <CheckBox Name="TodasCapitales" IsThreeState="True"
+                      Checked="TodasCapitales_Checked" Unchecked="TodasCapitales_Checked">
+                Agregar Todas
+            </CheckBox>
+            <StackPanel Margin="15">
+                <CheckBox Name="chkMadrid" Checked="cmbElem_Checked" Unchecked="cmbElem_Checked">Madrid</CheckBox>
+                <CheckBox Name="chkBerlin" Checked="cmbElem_Checked" Unchecked="cmbElem_Checked">Berlín</CheckBox>
+                <CheckBox Name="chkLondres" Checked="cmbElem_Checked" Unchecked="cmbElem_Checked">Londres</CheckBox>
+            </StackPanel>
+        </StackPanel>
+        <Button Grid.Row="3" Click="Button_Click">Dale!!!</Button>
+    </Grid>
+</Window>

@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeraInterfazWPF", "Prime
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraWPF", "CalculadoraWPF\CalculadoraWPF.csproj", "{9D801C5D-AA41-48ED-9937-4BC26332DF28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBoxPractica", "ListBoxPractica\ListBoxPractica.csproj", "{F3104FC7-6DE6-46CF-949C-2C480B4217A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioButtonPractica", "RadioButtonPractica\RadioButtonPractica.csproj", "{88E8717C-E77A-4F89-9EB0-BABAD4B3584F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{9D801C5D-AA41-48ED-9937-4BC26332DF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D801C5D-AA41-48ED-9937-4BC26332DF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D801C5D-AA41-48ED-9937-4BC26332DF28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3104FC7-6DE6-46CF-949C-2C480B4217A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3104FC7-6DE6-46CF-949C-2C480B4217A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3104FC7-6DE6-46CF-949C-2C480B4217A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3104FC7-6DE6-46CF-949C-2C480B4217A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88E8717C-E77A-4F89-9EB0-BABAD4B3584F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88E8717C-E77A-4F89-9EB0-BABAD4B3584F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88E8717C-E77A-4F89-9EB0-BABAD4B3584F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88E8717C-E77A-4F89-9EB0-BABAD4B3584F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
