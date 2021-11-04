@@ -1,0 +1,15 @@
+D:\000_Cursos\PruebasCPildorasInformaticas\GestionPedidosWPF\bin\Debug\GestionPedidosWPF.exe.config
+D:\000_Cursos\PruebasCPildorasInformaticas\GestionPedidosWPF\bin\Debug\GestionPedidosWPF.exe
+D:\000_Cursos\PruebasCPildorasInformaticas\GestionPedidosWPF\bin\Debug\GestionPedidosWPF.pdb
+D:\000_Cursos\PruebasCPildorasInformaticas\GestionPedidosWPF\obj\Debug\GestionPedidosWPF.csprojAssemblyReference.cache
+D:\000_Cursos\PruebasCPildorasInformaticas\GestionPedidosWPF\obj\Debug\MainWindow.g.cs
+D:\000_Cursos\PruebasCPildorasInformaticas\GestionPedidosWPF\obj\Debug\App.g.cs
+D:\000_Cursos\PruebasCPildorasInformaticas\GestionPedidosWPF\obj\Debug\GestionPedidosWPF_MarkupCompile.cache
+D:\000_Cursos\PruebasCPildorasInformaticas\GestionPedidosWPF\obj\Debug\GestionPedidosWPF_MarkupCompile.lref
+D:\000_Cursos\PruebasCPildorasInformaticas\GestionPedidosWPF\obj\Debug\MainWindow.baml
+D:\000_Cursos\PruebasCPildorasInformaticas\GestionPedidosWPF\obj\Debug\GestionPedidosWPF.g.resources
+D:\000_Cursos\PruebasCPildorasInformaticas\GestionPedidosWPF\obj\Debug\GestionPedidosWPF.Properties.Resources.resources
+D:\000_Cursos\PruebasCPildorasInformaticas\GestionPedidosWPF\obj\Debug\GestionPedidosWPF.csproj.GenerateResource.cache
+D:\000_Cursos\PruebasCPildorasInformaticas\GestionPedidosWPF\obj\Debug\GestionPedidosWPF.csproj.CoreCompileInputs.cache
+D:\000_Cursos\PruebasCPildorasInformaticas\GestionPedidosWPF\obj\Debug\GestionPedidosWPF.exe
+D:\000_Cursos\PruebasCPildorasInformaticas\GestionPedidosWPF\obj\Debug\GestionPedidosWPF.pdb
