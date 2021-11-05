@@ -1,7 +1,6 @@
 D:\000_Cursos\PruebasCPildorasInformaticas\ExpresionesRegulares\bin\Debug\ExpresionesRegulares.exe.config
 D:\000_Cursos\PruebasCPildorasInformaticas\ExpresionesRegulares\bin\Debug\ExpresionesRegulares.exe
 D:\000_Cursos\PruebasCPildorasInformaticas\ExpresionesRegulares\bin\Debug\ExpresionesRegulares.pdb
-D:\000_Cursos\PruebasCPildorasInformaticas\ExpresionesRegulares\obj\Debug\ExpresionesRegulares.csprojAssemblyReference.cache
 D:\000_Cursos\PruebasCPildorasInformaticas\ExpresionesRegulares\obj\Debug\ExpresionesRegulares.csproj.CoreCompileInputs.cache
 D:\000_Cursos\PruebasCPildorasInformaticas\ExpresionesRegulares\obj\Debug\ExpresionesRegulares.exe
 D:\000_Cursos\PruebasCPildorasInformaticas\ExpresionesRegulares\obj\Debug\ExpresionesRegulares.pdb

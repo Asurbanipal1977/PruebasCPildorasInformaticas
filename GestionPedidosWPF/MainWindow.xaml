@@ -7,9 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="Clientes" HorizontalAlignment="Left" Margin="382,55,0,0" VerticalAlignment="Top" FontSize="24"/>
-        <ListBox Name="ListaClientes" HorizontalAlignment="Left" Height="100" Margin="297,97,0,0" 
-                 VerticalAlignment="Top" Width="249"/>
+        <Label Content="Clientes" HorizontalAlignment="Left" Margin="78,47,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <ListBox Name="ListaClientes" HorizontalAlignment="Left" Height="100" Margin="10,94,0,0" 
+                 VerticalAlignment="Top" Width="249" SelectionChanged="ListaClientes_SelectionChanged"/>
+        <Label Content="Pedidos" HorizontalAlignment="Left" Margin="344,47,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <ListBox Name="ListaPedidos" HorizontalAlignment="Left" Height="100" Margin="279,94,0,0" 
+                 VerticalAlignment="Top" Width="211"/>
+        <ListBox Name="ListaTodosPedidos"  HorizontalAlignment="Left" Height="198" Margin="510,94,0,0" VerticalAlignment="Top" Width="263"/>
+        <Button Content="Eliminar" HorizontalAlignment="Left" Margin="698,63,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <TextBox Name="txtNombreCliente"  HorizontalAlignment="Left" Height="23" Margin="10,211,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="249"/>
+        <Button Name="btnInsertarCliente" Content="Insertar" HorizontalAlignment="Left" Margin="10,249,0,0" VerticalAlignment="Top" Width="115" Height="43" Click="btnInsertarCliente_Click"/>
+        <Button Name="btnEliminarCliente" Content="Eliminar" HorizontalAlignment="Left" Margin="140,249,0,0" VerticalAlignment="Top" Width="119" Height="43" IsDefault="True" Click="btnEliminarCliente_Click"/>
+        <Button Name="btnModificarCliente" Content="Editar" HorizontalAlignment="Left" Margin="10,297,0,0" VerticalAlignment="Top" Width="249" Height="35" Click="btnModificarCliente_Click"/>
 
     </Grid>
 </Window>

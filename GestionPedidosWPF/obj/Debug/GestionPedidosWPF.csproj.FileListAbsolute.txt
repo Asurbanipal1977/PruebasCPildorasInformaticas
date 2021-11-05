@@ -13,3 +13,8 @@ D:\000_Cursos\PruebasCPildorasInformaticas\GestionPedidosWPF\obj\Debug\GestionPe
 D:\000_Cursos\PruebasCPildorasInformaticas\GestionPedidosWPF\obj\Debug\GestionPedidosWPF.csproj.CoreCompileInputs.cache
 D:\000_Cursos\PruebasCPildorasInformaticas\GestionPedidosWPF\obj\Debug\GestionPedidosWPF.exe
 D:\000_Cursos\PruebasCPildorasInformaticas\GestionPedidosWPF\obj\Debug\GestionPedidosWPF.pdb
+D:\000_Cursos\PruebasCPildorasInformaticas\GestionPedidosWPF\bin\Debug\Dapper.dll
+D:\000_Cursos\PruebasCPildorasInformaticas\GestionPedidosWPF\bin\Debug\Dapper.xml
+D:\000_Cursos\PruebasCPildorasInformaticas\GestionPedidosWPF\obj\Debug\ModificarCliente.g.cs
+D:\000_Cursos\PruebasCPildorasInformaticas\GestionPedidosWPF\obj\Debug\ModificarCliente.baml
+D:\000_Cursos\PruebasCPildorasInformaticas\GestionPedidosWPF\obj\Debug\GestionPedidosWPF.csproj.CopyComplete
