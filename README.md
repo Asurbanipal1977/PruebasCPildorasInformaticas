@@ -174,4 +174,7 @@ Para recuperar los datos de la base de datos y  cargarlos en un ListBox se neces
   
   Ej: [GestionPedidos](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/GestionPedidosWPF)
 
+A continuación, se realiza un ejemplo de CRUD, con la modificación en una ventana emergente.
+Ej: [GestionPedidos](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/GestionPedidosWPF)
+
    
