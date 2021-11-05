@@ -175,6 +175,9 @@ Para recuperar los datos de la base de datos y  cargarlos en un ListBox se neces
   Ej: [GestionPedidos](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/GestionPedidosWPF)
 
 A continuación, se realiza un ejemplo de CRUD, con la modificación en una ventana emergente.
+Para ejecutar un código después de cerrar la ventana hijo hau dos alternativas:
+1. Usar ventana modal con ShowDialog y ejecutar el código después.
+2. Usar el evento de ventana Activated que se ejecuta cuando la ventana recibe el foco.
 Ej: [GestionPedidos](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/GestionPedidosWPF)
 
    
