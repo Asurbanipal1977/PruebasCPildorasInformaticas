@@ -180,4 +180,14 @@ Para ejecutar un código después de cerrar la ventana hijo hau dos alternativas
 2. Usar el evento de ventana Activated que se ejecuta cuando la ventana recibe el foco.
 Ej: [GestionPedidos](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/GestionPedidosWPF)
 
+### 5. LINQ
+Es un lenguaje de consulta integrado en C#. Permite consultar datos de diferentes orígenes de datos: colección de objetos, XML, SQL BBDD, entidades, recordset...
+El uso de Linq:
+  - Uniforma el lenguaje de consulta
+  - Reduce el código
+  - Código más legible.
+  - Integración en C#.
+  
+La API Linq está formada por dos clases: Enumerable y Queryable
+
    
