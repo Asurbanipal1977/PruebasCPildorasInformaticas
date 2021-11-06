@@ -190,4 +190,6 @@ El uso de Linq:
   
 La API Linq está formada por dos clases: Enumerable y Queryable
 
+
+
    
