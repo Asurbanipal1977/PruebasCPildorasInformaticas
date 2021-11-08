@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="PildorasInformaticasBBDD" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=gigabyte-sabre\sqlexpress;Initial Catalog=PildorasInformaticasBBDD;Integrated Security=True" SettingsObjectName="WPFLinq.Properties.Settings" SettingsPropertyName="PildorasInformaticasBBDDConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Empresa" Member="Empresa">
+    <Type Name="Empresa">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Empresa_Empleado" Member="Empleado" ThisKey="Id" OtherKey="EmpresaId" Type="Empleado" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Empleado" Member="Empleado">
+    <Type Name="Empleado">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Apellido" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="EmpresaId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Empleado_CargoEmpleado" Member="CargoEmpleado" ThisKey="Id" OtherKey="IdEmpleado" Type="CargoEmpleado" />
+      <Association Name="Empresa_Empleado" Member="Empresa" ThisKey="EmpresaId" OtherKey="Id" Type="Empresa" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CargoEmpleado" Member="CargoEmpleado">
+    <Type Name="CargoEmpleado">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IdCargo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IdEmpleado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Empleado_CargoEmpleado" Member="Empleado" ThisKey="IdEmpleado" OtherKey="Id" Type="Empleado" IsForeignKey="true" />
+      <Association Name="Cargo_CargoEmpleado" Member="Cargo" ThisKey="IdCargo" OtherKey="Id" Type="Cargo" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Cargo" Member="Cargo">
+    <Type Name="Cargo">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NombreCargo" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Cargo_CargoEmpleado" Member="CargoEmpleado" ThisKey="Id" OtherKey="IdCargo" Type="CargoEmpleado" />
+    </Type>
+  </Table>
+</Database>
