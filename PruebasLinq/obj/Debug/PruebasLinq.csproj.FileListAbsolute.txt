@@ -1,0 +1,7 @@
+D:\000_Cursos\PruebasCPildorasInformaticas\PruebasLinq\bin\Debug\PruebasLinq.exe.config
+D:\000_Cursos\PruebasCPildorasInformaticas\PruebasLinq\bin\Debug\PruebasLinq.exe
+D:\000_Cursos\PruebasCPildorasInformaticas\PruebasLinq\bin\Debug\PruebasLinq.pdb
+D:\000_Cursos\PruebasCPildorasInformaticas\PruebasLinq\obj\Debug\PruebasLinq.csproj.CoreCompileInputs.cache
+D:\000_Cursos\PruebasCPildorasInformaticas\PruebasLinq\obj\Debug\PruebasLinq.exe
+D:\000_Cursos\PruebasCPildorasInformaticas\PruebasLinq\obj\Debug\PruebasLinq.pdb
+D:\000_Cursos\PruebasCPildorasInformaticas\PruebasLinq\obj\Debug\PruebasLinq.csprojAssemblyReference.cache
