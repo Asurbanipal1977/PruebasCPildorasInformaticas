@@ -195,6 +195,8 @@ Ej: [PruebasLinq](https://github.com/Asurbanipal1977/PruebasCPildorasInformatica
 
 2. Ejemplo con Clases de Linq to SQL (Hay que instalarla extensión con Visual Studio Installer y es el paquete Herramientas de Linq to SQL)
   C:\Program Files (x86)\Microsoft Visual Studio\Installer
+  
+  Al crear un elemento de este tipo, se crea un archivo .dbml dónde podemos arrastrar las tablas que queramos gestionar como clases.
 
 
 
