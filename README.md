@@ -193,7 +193,8 @@ La API Linq está formada por dos clases: Enumerable y Queryable.
 1. Pruebas con listas. Se realiza ejemplo con Empresas y Empleados y se emplea LINQ para filtrar estas listas:
 Ej: [PruebasLinq](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/PruebasLinq)
 
-2. Ejemplo con Clases de Linq to SQL (Hay que instalarla extenisón con Visual Studio Installer)
+2. Ejemplo con Clases de Linq to SQL (Hay que instalarla extensión con Visual Studio Installer)
+  C:\Program Files (x86)\Microsoft Visual Studio\Installer
 
 
 
