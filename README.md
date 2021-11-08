@@ -197,7 +197,7 @@ Ej: [PruebasLinq](https://github.com/Asurbanipal1977/PruebasCPildorasInformatica
   C:\Program Files (x86)\Microsoft Visual Studio\Installer
   
   Al crear un elemento de este tipo, se crea un archivo .dbml dónde podemos arrastrar las tablas desde el "Explorador de Servidores" que queramos gestionar como clases. Aquí tenemos un ejemplo de WPF con un DataGrid y realizando las operaciones CRUD.
-Ej: [PruebasLinq](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/WPFLinq)
+Ej: [WPFLinq](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/WPFLinq)
 
 
 
