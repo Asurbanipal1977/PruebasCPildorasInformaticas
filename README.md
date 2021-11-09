@@ -199,6 +199,15 @@ Ej: [PruebasLinq](https://github.com/Asurbanipal1977/PruebasCPildorasInformatica
   Al crear un elemento de este tipo, se crea un archivo .dbml dónde podemos arrastrar las tablas desde el "Explorador de Servidores" que queramos gestionar como clases. Aquí tenemos un ejemplo de WPF con un DataGrid y realizando las operaciones CRUD.
 Ej: [WPFLinq](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/WPFLinq)
 
+### 6. THREAD
+Programación concurrente y aplicaciones multitarea.
+
+Dos tipos:
+- Monotarea: Solo realiza una tarea a la vez.
+- Multitarea: Se pueden realizar varias tareas a la vez.
+
+Para poder ver la ejecución, hay una ventana de subproceso. En depuración vamos a Otras ventanas / Subproceso.
+
 
 
 
