@@ -213,8 +213,9 @@ Para poder ver la ejecución, hay una ventana de subproceso. En depuración vamo
 - Para el bloqueo se usa Lock(objeto) y entre llaves el código a bloquear. Usamos un ejemplo de 4 miembros de una familia y una cuenta bancaria.
 Se puede dar nombre a un Thread con la propiedad Name y se puede acceder a ese nombre con CurrentThread.Name.
 
-
-
+2. **Control de finalización de hilo**
+Se hace con TaskCompletionSource<Generico> y, para indicar que ha terminado, llamamos al método TrySetResult del TaskCompletionSource y cómo parámetro el genérico.
+Después, para preguntar si ha finalizado el hilo, usamos la propiedad Task.Result
 
 
 
