@@ -208,6 +208,14 @@ Dos tipos:
 
 Para poder ver la ejecución, hay una ventana de subproceso. En depuración vamos a Otras ventanas / Subproceso.
 
+1. **Sincronización y bloqueo**
+- Para sincronizar se usa el .Join()
+- Para el bloqueo se usa Lock(objeto) y entre llaves el código a bloquear. Usamos un ejemplo de 4 miembros de una familia y una cuenta bancaria.
+Se puede dar nombre a un Thread con la propiedad Name y se puede acceder a ese nombre con CurrentThread.Name.
+
+
+
+
 
 
 
