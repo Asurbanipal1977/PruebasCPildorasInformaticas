@@ -228,12 +228,11 @@ Ej: [ThreadPullPruebas](https://github.com/Asurbanipal1977/PruebasCPildorasInfor
   
 4. TASK
 Las Task surgen para gestionar los problemas que surgen por infrautilizar o sobreutilizar los recursos del procesador. Se colocan por encima de los Thread (un nivel de abstracción mayor) para optimizar el uso del procesador (parecido al pull de conexiones)
-
   
-
-
-
-
-
-
-   
+El método estático Run permite hacer en un solo paso la instanciación y el arranque de la tarea.
+```
+  Task tarea = Task.Run(EjecutarTarea);
+  
+  es igual que
+  Task tarea = new Task(EjecutarTarea);
+  tarea.Start();
