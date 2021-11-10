@@ -221,6 +221,17 @@ Ej: [PruebaThread](https://github.com/Asurbanipal1977/PruebasCPildorasInformatic
 Se hace con TaskCompletionSource<Generico> y, para indicar que ha terminado, llamamos al método TrySetResult del TaskCompletionSource y cómo parámetro el genérico.
 Después, para preguntar si ha finalizado el hilo, usamos la propiedad Task.Result
 Ej: [ThreadTaskCompletion](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/ThreadTaskCompletion)
+  
+3. POOL DE THREAD
+Se utiliza cuando quieres usar varios hilos de manera concurrente. Al crear un pool de Thread, permite reutilizar Thread para varias tareas. Para usarlo utilizamos el método estático: ThreadPool.QueueUserWorkItem
+Ej: [ThreadPullPruebas](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/ThreadPullPruebas)
+  
+4. TASK
+Las Task surgen para gestionar los problemas que surgen por infrautilizar o sobreutilizar los recursos del procesador. Se colocan por encima de los Thread (un nivel de abstracción mayor) para optimizar el uso del procesador (parecido al pull de conexiones)
+
+  
+
+
 
 
 
