@@ -27,6 +27,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPruebaBanco", "Thread
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadTaskCompletion", "ThreadTaskCompletion\ThreadTaskCompletion.csproj", "{8A145D9A-CE12-4EB6-8FDE-E2278527E090}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPullPruebas", "ThreadPullPruebas\ThreadPullPruebas.csproj", "{1C35BDD2-3849-4E3B-9847-CEF160781FC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadTask", "ThreadTask\ThreadTask.csproj", "{CA586BD0-6811-48E3-AC1E-3442A52855D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadTask2", "ThreadTask2\ThreadTask2.csproj", "{5AA7992B-948B-4612-9766-0D6FE87DD441}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadParallel", "ThreadParallel\ThreadParallel.csproj", "{FA32257B-7438-496D-8E3C-7B0A42C18D0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadTaskCancel", "ThreadTaskCancel\ThreadTaskCancel.csproj", "{9D2C53DB-F0AC-4DB1-83DE-C6CEFE80E3B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +91,26 @@ Global
 		{8A145D9A-CE12-4EB6-8FDE-E2278527E090}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A145D9A-CE12-4EB6-8FDE-E2278527E090}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A145D9A-CE12-4EB6-8FDE-E2278527E090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C35BDD2-3849-4E3B-9847-CEF160781FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C35BDD2-3849-4E3B-9847-CEF160781FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C35BDD2-3849-4E3B-9847-CEF160781FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C35BDD2-3849-4E3B-9847-CEF160781FC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA586BD0-6811-48E3-AC1E-3442A52855D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA586BD0-6811-48E3-AC1E-3442A52855D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA586BD0-6811-48E3-AC1E-3442A52855D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA586BD0-6811-48E3-AC1E-3442A52855D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA7992B-948B-4612-9766-0D6FE87DD441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA7992B-948B-4612-9766-0D6FE87DD441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA7992B-948B-4612-9766-0D6FE87DD441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA7992B-948B-4612-9766-0D6FE87DD441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA32257B-7438-496D-8E3C-7B0A42C18D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA32257B-7438-496D-8E3C-7B0A42C18D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA32257B-7438-496D-8E3C-7B0A42C18D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA32257B-7438-496D-8E3C-7B0A42C18D0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D2C53DB-F0AC-4DB1-83DE-C6CEFE80E3B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D2C53DB-F0AC-4DB1-83DE-C6CEFE80E3B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D2C53DB-F0AC-4DB1-83DE-C6CEFE80E3B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D2C53DB-F0AC-4DB1-83DE-C6CEFE80E3B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
