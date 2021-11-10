@@ -206,16 +206,21 @@ Dos tipos:
 - Monotarea: Solo realiza una tarea a la vez.
 - Multitarea: Se pueden realizar varias tareas a la vez.
 
-Para poder ver la ejecución, hay una ventana de subproceso. En depuración vamos a Otras ventanas / Subproceso.
+Para poder ver la ejecución, hay una ventana de subproceso. En depuración vamos a Depurar / Ventanas / Subproceso.
 
 1. **Sincronización y bloqueo**
 - Para sincronizar se usa el .Join()
 - Para el bloqueo se usa Lock(objeto) y entre llaves el código a bloquear. Usamos un ejemplo de 4 miembros de una familia y una cuenta bancaria.
 Se puede dar nombre a un Thread con la propiedad Name y se puede acceder a ese nombre con CurrentThread.Name.
 
+Ej: [PruebaThread](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/PruebaThread)
+    [ThreadPruebaBanco](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/ThreadPruebaBanco)
+  
+
 2. **Control de finalización de hilo**
 Se hace con TaskCompletionSource<Generico> y, para indicar que ha terminado, llamamos al método TrySetResult del TaskCompletionSource y cómo parámetro el genérico.
 Después, para preguntar si ha finalizado el hilo, usamos la propiedad Task.Result
+Ej: [ThreadTaskCompletion](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/ThreadTaskCompletion)
 
 
 
