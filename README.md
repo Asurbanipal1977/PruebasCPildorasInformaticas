@@ -236,3 +236,4 @@ El método estático Run permite hacer en un solo paso la instanciación y el ar
   es igual que
   Task tarea = new Task(EjecutarTarea);
   tarea.Start();
+```
