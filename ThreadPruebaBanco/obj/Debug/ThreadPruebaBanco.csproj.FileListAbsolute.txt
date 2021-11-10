@@ -1,0 +1,7 @@
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadPruebaBanco\bin\Debug\ThreadPruebaBanco.exe.config
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadPruebaBanco\bin\Debug\ThreadPruebaBanco.exe
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadPruebaBanco\bin\Debug\ThreadPruebaBanco.pdb
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadPruebaBanco\obj\Debug\ThreadPruebaBanco.csproj.CoreCompileInputs.cache
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadPruebaBanco\obj\Debug\ThreadPruebaBanco.exe
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadPruebaBanco\obj\Debug\ThreadPruebaBanco.pdb
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadPruebaBanco\obj\Debug\ThreadPruebaBanco.csprojAssemblyReference.cache

@@ -1,0 +1,6 @@
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadTaskCompletion\obj\Debug\ThreadTaskCompletion.csproj.CoreCompileInputs.cache
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadTaskCompletion\bin\Debug\ThreadTaskCompletion.exe.config
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadTaskCompletion\bin\Debug\ThreadTaskCompletion.exe
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadTaskCompletion\bin\Debug\ThreadTaskCompletion.pdb
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadTaskCompletion\obj\Debug\ThreadTaskCompletion.exe
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadTaskCompletion\obj\Debug\ThreadTaskCompletion.pdb
