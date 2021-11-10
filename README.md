@@ -252,7 +252,7 @@ Ej: [Parallel](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/t
 - Hay que propagar esa cancelación. Se usa el objeto CancellationTokenSOurce con el método Cancel.
 - El método que se ejecuta en la tarea recibirá la petición de cancelación y realizará las operaciones oportunas.
   
-Ej: [Cancel](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/ThreadCancelTask) 
+Ej: [Cancel](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/ThreadTaskCancel) 
 
   
   
