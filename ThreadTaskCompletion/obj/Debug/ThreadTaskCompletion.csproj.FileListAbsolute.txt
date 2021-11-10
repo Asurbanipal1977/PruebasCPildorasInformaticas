@@ -4,3 +4,4 @@ D:\000_Cursos\PruebasCPildorasInformaticas\ThreadTaskCompletion\bin\Debug\Thread
 D:\000_Cursos\PruebasCPildorasInformaticas\ThreadTaskCompletion\bin\Debug\ThreadTaskCompletion.pdb
 D:\000_Cursos\PruebasCPildorasInformaticas\ThreadTaskCompletion\obj\Debug\ThreadTaskCompletion.exe
 D:\000_Cursos\PruebasCPildorasInformaticas\ThreadTaskCompletion\obj\Debug\ThreadTaskCompletion.pdb
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadTaskCompletion\obj\Debug\ThreadTaskCompletion.csprojAssemblyReference.cache

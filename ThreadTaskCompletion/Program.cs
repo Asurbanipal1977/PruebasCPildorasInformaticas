@@ -12,24 +12,15 @@ namespace ThreadTaskCompletion
 		static void Main(string[] args)
 		{
 			var tareaTerminada = new TaskCompletionSource<bool>();
-
-			Thread hilo3 = new Thread(() =>
-			{
-				for (int j = 0; j < 5; j++)
-				{
-					Console.WriteLine("Hilo de Ejecución 3");
-					Thread.Sleep(1000);
-				}
-			});
+			var tareaTerminada2 = new TaskCompletionSource<bool>();
 
 			Thread hilo = new Thread(() =>
 			{
 				for (int j = 0; j < 5; j++)
 				{
-					Console.WriteLine("Hilo de Ejecución 1");
+					Console.WriteLine("Hilo de Ejecución");
 					Thread.Sleep(1000);
 				}
-
 				tareaTerminada.TrySetResult(true);
 			});
 
@@ -41,14 +32,24 @@ namespace ThreadTaskCompletion
 					Thread.Sleep(1000);
 				}
 
-				tareaTerminada.TrySetResult(true);
+				tareaTerminada2.TrySetResult(true);
 			});
 
-			hilo3.Start();
+			Thread hilo3 = new Thread(() =>
+			{
+				for (int j = 0; j < 5; j++)
+				{
+					Console.WriteLine("Hilo de Ejecución 3");
+					Thread.Sleep(1000);
+				}
+			});
+
 			hilo.Start();
 			var resultado = tareaTerminada.Task.Result;
-
 			hilo2.Start();
+			var resultado2 = tareaTerminada2.Task.Result;
+			hilo3.Start();
+			var resultado3 = tareaTerminada3.Task.Result;
 
 		}
 	}
