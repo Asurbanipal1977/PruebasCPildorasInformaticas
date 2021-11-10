@@ -49,7 +49,6 @@ namespace ThreadTaskCompletion
 			hilo2.Start();
 			var resultado2 = tareaTerminada2.Task.Result;
 			hilo3.Start();
-			var resultado3 = tareaTerminada3.Task.Result;
 
 		}
 	}
