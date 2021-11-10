@@ -244,4 +244,14 @@ Para ejecutar una tarea después de otra, hay que usar la tarea anterior y llama
   
 Ej: [ThreadTask](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/ThreadTask)
   
-- **Clase Parallel** Nos permite trabajar con varias tareas de manera sencilla.
+5. **CLASE PARALLEL** Nos permite trabajar con varias tareas de manera sencilla y ejecutar llamadas paralelas gracias a su métodos For y ForEach.
+Ej: [Parallel](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/ThreadParallel) 
+
+6. CANCELAR TAREA.
+- Hay que crear un token de cancelación. Se usa las clases: CancellationTokenSource y CancellationToken
+- Hay que propagar esa cancelación. Se usa el objeto CancellationTokenSOurce con el método Cancel.
+- El método que se ejecuta en la tarea recibirá la petición de cancelación y realizará las operaciones oportunas.
+Ej: [Cancel](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/ThreadCancelTask) 
+
+  
+  
