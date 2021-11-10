@@ -1,0 +1,7 @@
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadTaskCancel\bin\Debug\ThreadTaskCancel.exe.config
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadTaskCancel\bin\Debug\ThreadTaskCancel.exe
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadTaskCancel\bin\Debug\ThreadTaskCancel.pdb
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadTaskCancel\obj\Debug\ThreadTaskCancel.csprojAssemblyReference.cache
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadTaskCancel\obj\Debug\ThreadTaskCancel.csproj.CoreCompileInputs.cache
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadTaskCancel\obj\Debug\ThreadTaskCancel.exe
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadTaskCancel\obj\Debug\ThreadTaskCancel.pdb

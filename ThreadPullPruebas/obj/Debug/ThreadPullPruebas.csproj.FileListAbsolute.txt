@@ -1,0 +1,7 @@
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadPullPruebas\bin\Debug\ThreadPullPruebas.exe.config
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadPullPruebas\bin\Debug\ThreadPullPruebas.exe
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadPullPruebas\bin\Debug\ThreadPullPruebas.pdb
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadPullPruebas\obj\Debug\ThreadPullPruebas.csprojAssemblyReference.cache
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadPullPruebas\obj\Debug\ThreadPullPruebas.csproj.CoreCompileInputs.cache
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadPullPruebas\obj\Debug\ThreadPullPruebas.exe
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadPullPruebas\obj\Debug\ThreadPullPruebas.pdb

@@ -1,0 +1,7 @@
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadParallel\bin\Debug\ThreadParallel.exe.config
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadParallel\bin\Debug\ThreadParallel.exe
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadParallel\bin\Debug\ThreadParallel.pdb
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadParallel\obj\Debug\ThreadParallel.csprojAssemblyReference.cache
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadParallel\obj\Debug\ThreadParallel.csproj.CoreCompileInputs.cache
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadParallel\obj\Debug\ThreadParallel.exe
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadParallel\obj\Debug\ThreadParallel.pdb

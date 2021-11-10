@@ -1,0 +1,7 @@
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadTask\bin\Debug\ThreadTask.exe.config
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadTask\bin\Debug\ThreadTask.exe
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadTask\bin\Debug\ThreadTask.pdb
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadTask\obj\Debug\ThreadTask.csprojAssemblyReference.cache
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadTask\obj\Debug\ThreadTask.csproj.CoreCompileInputs.cache
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadTask\obj\Debug\ThreadTask.exe
+D:\000_Cursos\PruebasCPildorasInformaticas\ThreadTask\obj\Debug\ThreadTask.pdb
