@@ -226,7 +226,7 @@ Ej: [ThreadTaskCompletion](https://github.com/Asurbanipal1977/PruebasCPildorasIn
 Se utiliza cuando quieres usar varios hilos de manera concurrente. Al crear un pool de Thread, permite reutilizar Thread para varias tareas. Para usarlo utilizamos el método estático: ThreadPool.QueueUserWorkItem
 Ej: [ThreadPullPruebas](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/ThreadPullPruebas)
   
-4. TASK
+4. TASK.
 Las Task surgen para gestionar los problemas que surgen por infrautilizar o sobreutilizar los recursos del procesador. Se colocan por encima de los Thread (un nivel de abstracción mayor) para optimizar el uso del procesador (parecido al pull de conexiones)
   
 El método estático Run permite hacer en un solo paso la instanciación y el arranque de la tarea.
@@ -237,3 +237,11 @@ El método estático Run permite hacer en un solo paso la instanciación y el ar
   Task tarea = new Task(EjecutarTarea);
   tarea.Start();
 ```
+  
+Para ejecutar una tarea después de otra, hay que usar la tarea anterior y llamar al método **ContinueWith**.
+  
+- WaitAll, WaitAny y Wait. Permite dar prioridad a unas tareas sobre otras, es decir, podemos conseguir que las tareas se ejecuten de manera consecutiva o que se ejecuten cuando se acabe otra de las tareas.
+  
+Ej: [ThreadTask](https://github.com/Asurbanipal1977/PruebasCPildorasInformaticas/tree/main/ThreadTask)
+  
+- **Clase Parallel** Nos permite trabajar con varias tareas de manera sencilla.
